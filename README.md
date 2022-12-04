@@ -25,14 +25,14 @@
 
 - Jeffry
 
-  - #1
+  - About Us
   - #2
 
 - Rafiq
-  - #1
+  - Home
   - #2
 - Benhard
-  - #1
+  - Contact Us
   - #2
 
 ## Tech Stack

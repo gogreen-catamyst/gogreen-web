@@ -1,4 +1,4 @@
-# Company Profile Project
+# GoGreen Project
 
 ## Links
 

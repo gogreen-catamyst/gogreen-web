@@ -9,9 +9,7 @@
 
 ### Design
 
-- Figma Mockup : https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/Untitled?t=BrC6r11UzE6DUO9z-0
-- Figma Prototype :
-- Wireframes :
+- Figma Design : https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/gogreen?t=DH73MuPngbNEOrzZ-0
 
 ## Team Members
 

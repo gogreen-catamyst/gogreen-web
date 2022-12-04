@@ -4,13 +4,12 @@
 
 ### Website-Inspiration
 
-GoTo : https://www.gotocompany.com/
+- GoTo : https://www.gotocompany.com/
+- Deployment : https://gogreen.jeffrymahbuubi.com/
 
 ### Design
 
-- Figma Mockup :
-- Figma Prototype :
-- Wireframes :
+- Figma Design : https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/gogreen?t=DH73MuPngbNEOrzZ-0
 
 ## Team Members
 
@@ -24,14 +23,19 @@ GoTo : https://www.gotocompany.com/
 
 - Jeffry
 
-  - #1
+  - About Us
   - #2
 
+<<<<<<< HEAD
 - Rofiq
   - #1
+=======
+- Rafiq
+  - Home
+>>>>>>> 97c3ae65e7b07178688ab80f1fa2d3f6927e225e
   - #2
 - Benhard
-  - #1
+  - Contact Us
   - #2
 
 ## Tech Stack

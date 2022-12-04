@@ -13,8 +13,8 @@
 |          Name          |       Role       |                      GitHub URL                      |
 | :--------------------: | :--------------: | :--------------------------------------------------: |
 | Aunuun Jeffry Mahbuubi | Frontend, Design | [@jeffrymahbuubi](https://github.com/jeffrymahbuubi) |
-|    Bernhard Hustomo    | Frontend, Design |                                                      |
-|  Rofiq Ahmad Mubarok   | Frontend, Design |                                                      |
+|    Bernhard Hustomo    | Frontend, Design |    [@rofiqahmad](https://github.com/rofiqahmad22)    |
+|  Rofiq Ahmad Mubarok   | Frontend, Design |      [@benhard](https://github.com/MatchaBear)       |
 
 ## Tech Stack
 

@@ -9,7 +9,7 @@
 
 ### Design
 
-- Figma Mockup :
+- Figma Mockup : https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/Untitled?t=BrC6r11UzE6DUO9z-0
 - Figma Prototype :
 - Wireframes :
 

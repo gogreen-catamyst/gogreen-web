@@ -26,7 +26,6 @@
   - About Us
   - #2
 
-<<<<<<< HEAD
 - Rofiq
   - Home
 

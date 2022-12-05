@@ -10,8 +10,7 @@ body {
   background-color: #49a368;
   display: flex;
   align-items: center;
-  gap: 200px;
-  padding-left: 70px;
+  justify-content: center;
 }
 
 a {
@@ -22,5 +21,4 @@ ul {
   list-style: none;
   gap: 50px;
   display: flex;
-  justify-content: space-between;
 }

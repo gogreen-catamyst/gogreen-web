@@ -13,11 +13,11 @@
 
 ## Team Members
 
-|          Name          |       Role       |                                                  GitHub URL                                                   |
-| :--------------------: | :--------------: | :-----------------------------------------------------------------------------------------------------------: |
-| Aunuun Jeffry Mahbuubi | Frontend, Design |          [GitHub](https://github.com/jeffrymahbuubi) & [LinkedIn](https://github.com/jeffrymahbuubi)          |
-|    Bernhard Hustomo    | Frontend, Design | [GitHub](https://github.com/rofiqahmad22) & [LinkedIn](https://www.linkedin.com/in/rofiq-ahmad-m-844576235/)  |
-|  Rofiq Ahmad Mubarok   | Frontend, Design | [GitHub](https://github.com/MatchaBear) & [LinkedIn](https://www.linkedin.com/in/bambang-tri-hadi-2b7821225/) |
+|          Name          |       Role       |                                                  GitHub URL                                                  |
+| :--------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------: |
+| Aunuun Jeffry Mahbuubi | Frontend, Design |         [GitHub](https://github.com/jeffrymahbuubi) & [LinkedIn](https://github.com/jeffrymahbuubi)          |
+|    Bernhard Hustomo    | Frontend, Design |      [GitHub](https://github.com/MatchaBear) & [LinkedIn](https://www.linkedin.com/in/bernhardhustomo/)      |
+|  Rofiq Ahmad Mubarok   | Frontend, Design | [GitHub](https://github.com/rofiqahmad22) & [LinkedIn](https://www.linkedin.com/in/rofiq-ahmad-m-844576235/) |
 
 ## Contributors
 
@@ -25,8 +25,6 @@
 
   - About Us
   - #2
-
-<<<<<<< HEAD
 
 - Rofiq
 

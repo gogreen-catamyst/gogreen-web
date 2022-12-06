@@ -8,27 +8,28 @@ body {
 
 /* Navigation bar */
 
-.navbar {
+.header {
   background-color: #49a368;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 15px 300px;
-  font-weight: bold;
-  gap: 220px;
+  justify-content: center;
 }
 
-#header a {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+a {
   text-decoration: none;
   color: white;
 }
-#header ul {
+ul {
   list-style: none;
   gap: 50px;
   display: flex;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
 }
 
 /* About Page */
@@ -54,4 +55,8 @@ body {
 .about-navbar a {
   text-decoration: none;
   color: #fff;
+}
+
+.about-landing img {
+  max-width: 100%;
 }

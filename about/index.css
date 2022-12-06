@@ -6,13 +6,16 @@ body {
   font-family: "Noto Sans";
 }
 
+/* Navigation bar */
+
 .navbar {
   background-color: #49a368;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 25px 300px;
+  padding: 45px 300px;
   font-weight: bold;
+  gap: 220px;
 }
 
 #header a {
@@ -23,7 +26,12 @@ body {
   list-style: none;
   gap: 50px;
   display: flex;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
 }
+
+/* About Page */
 
 .about-navbar {
   background-color: hsl(141, 17%, 24%);

@@ -1,33 +1,24 @@
-a,
-ul,
-li {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  display: inline;
-}
-
 body {
   margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans";
 }
 
-nav {
-  background-color: hsl(140, 38%, 46%);
-  font-size: 1.5em;
+.navbar {
+  background-color: #49a368;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
-nav ul {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0 auto;
-  max-width: 68rem;
-  margin-left: auto;
-  margin-right: auto;
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  gap: 50px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex: 1;
 }

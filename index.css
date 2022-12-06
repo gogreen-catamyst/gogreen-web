@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans";
+}
+
+.navbar {
+  background-color: #49a368;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  gap: 50px;
+  display: flex;
+}

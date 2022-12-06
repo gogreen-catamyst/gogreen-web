@@ -29,3 +29,12 @@ ul {
   gap: 50px;
   display: flex;
 }
+
+section {
+  padding: 1rem;
+}
+
+.home {
+  width: 918px;
+  height: 779px;
+}

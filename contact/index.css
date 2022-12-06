@@ -29,3 +29,14 @@ input {
   width: 30px;
   height: 30px;
 }
+
+.form {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.form.radio.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -22,3 +22,10 @@ ul {
   gap: 50px;
   display: flex;
 }
+
+input {
+  accent-color: auto;
+  display: block;
+  width: 30px;
+  height: 30px;
+}

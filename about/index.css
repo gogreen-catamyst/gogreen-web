@@ -10,7 +10,9 @@ body {
   background-color: #49a368;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 25px 300px;
+  font-weight: bold;
 }
 
 #header a {
@@ -21,4 +23,27 @@ body {
   list-style: none;
   gap: 50px;
   display: flex;
+}
+
+.about-navbar {
+  background-color: hsl(141, 17%, 24%);
+  display: flex;
+  font-size: 1.2em;
+}
+
+.about-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 300px;
+  padding-right: 300px;
+  gap: 5em;
+}
+
+.about-navbar a {
+  text-decoration: none;
+  color: #fff;
 }

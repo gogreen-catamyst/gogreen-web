@@ -6,17 +6,11 @@ body {
   font-family: "Noto Sans";
 }
 
-.navbar {
-  background-color: #49a368;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 a {
   text-decoration: none;
   color: white;
 }
+
 ul {
   list-style: none;
   gap: 50px;
@@ -26,17 +20,49 @@ ul {
 input {
   accent-color: auto;
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 1rem;
+}
+
+input[type="radio" i] {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #49a368;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
-  margin: 0;
+  margin: 1rem;
   padding: 0.25rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
 }
 
 .form.radio.item {
   display: flex;
   align-items: center;
+  padding: 0.125rem 0.25rem;
   gap: 0.5rem;
+  border: none;
+}
+
+.section.nonav {
+  display: flex;
+  justify-content: center;
 }

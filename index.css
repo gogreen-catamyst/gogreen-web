@@ -91,6 +91,7 @@ section.gogreen > h2 {
   width: 100%;
   justify-content: space-between;
   margin: 0;
+  margin-left: 4rem;
 }
 
 .description-3 {
@@ -102,4 +103,24 @@ section.gogreen > h2 {
   height: 500px;
   justify-items: flex-end;
   margin-top: 10rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-image {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  align-items: center;
 }

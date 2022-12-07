@@ -28,7 +28,6 @@ ul {
   list-style: none;
   gap: 50px;
   display: flex;
-  font-weight: bold;
 }
 
 section {

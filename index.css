@@ -88,7 +88,6 @@ section.gogreen > h2 {
 .nature {
   display: flex;
   padding: 0;
-  width: 100%;
   justify-content: space-between;
   margin: 0;
   margin-left: 4rem;

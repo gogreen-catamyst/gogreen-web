@@ -78,6 +78,28 @@ section.gogreen > h2 {
   height: 459px;
 }
 
+.description-2 {
+  margin-bottom: 10rem;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 0;
+}
+
 .nature {
   display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.description-3 {
+  font-size: small;
+}
+
+.home-background {
+  width: 500px;
+  height: 500px;
+  justify-items: flex-end;
+  margin-top: 10rem;
 }

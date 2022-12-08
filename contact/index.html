@@ -91,7 +91,8 @@
             </div>
 
             <div class="form text">
-              <div class="form text item">
+              <fieldset class="form text item">
+                <legend>Nama</legend>
                 <input
                   type="text"
                   name="field-text"
@@ -100,9 +101,10 @@
                 />
                 <div class="form text caption"></div>
                 <label for="name" class="form text caption"></label>
-              </div>
+              </fieldset>
 
-              <div class="form text item">
+              <fieldset class="form text item">
+                <legend>Email</legend>
                 <input
                   type="email"
                   name="field-text"
@@ -111,9 +113,10 @@
                 />
                 <div class="form text caption"></div>
                 <label for="email" class="form text caption"></label>
-              </div>
+              </fieldset>
 
-              <div class="form text item">
+              <fieldset class="form text item">
+                <legend>Perusahaan</legend>
                 <input
                   type="text"
                   name="field-text"
@@ -122,7 +125,7 @@
                 />
                 <div class="form text caption"></div>
                 <label for="company" class="form text caption"></label>
-              </div>
+              </fieldset>
 
               <fieldset class="form text item">
                 <legend>Nomor Telepon</legend>
@@ -135,7 +138,55 @@
                 <div class="form text caption"></div>
                 <label for="phone-number" class="form text caption"></label>
               </fieldset>
+
+              <fieldset class="form text item">
+                <legend>Subjek</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="subject"
+                  placeholder="Subjek"
+                />
+                <div class="form text caption"></div>
+                <label for="subject" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="form dropdown">
+                <legend>Tujuan</legend>
+                <select name="dropdown-purpose" id="purpose">
+                  <option value="">Pilih Tujuan</option>
+                  <option value="pertanyaan-umum">Pertanyaan umum</option>
+                  <option value="undangan-bicara">Undangan bicara</option>
+                  <option value="sponsor">Sponsor</option>
+                  <option value="pertanyaan-media">Pertanyaan media</option>
+                </select>
+                <label for="purpose" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="form text item">
+                <legend>Komentar</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="comment"
+                  placeholder="Komentar"
+                />
+                <div class="form text caption"></div>
+                <label for="comment" class="form text caption"></label>
+              </fieldset>
             </div>
+            <div class="tncbox">
+              <input id="checkbox-tnc" type="checkbox" />
+              <label for="checkbox-tnc"
+                >Saya bersedia untuk mengungkapkan informasi identifikasi
+                pribadi saya kepada PT GoGreen Indonesia Tbk dan afiliasinya
+                untuk mengidentifikasi pesan yang saya sampaikan dan media untuk
+                menindaklanjuti pesan saya.</label
+              >
+            </div>
+            <button class="submit-button">
+              <span>Kirim</span>
+            </button>
           </form>
         </div>
       </section>

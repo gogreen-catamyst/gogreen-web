@@ -140,3 +140,12 @@ aside > img {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  section.nonav {
+    flex-direction: column-reverse;
+  }
+  img {
+    width: fit-content;
+  }
+}

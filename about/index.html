@@ -17,6 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -48,22 +55,109 @@
 
     <main>
       <!-- About Page : Navigation-bar -->
-      <nav class="about-navbar">
-        <ul>
-          <li><a href="#company-overview">Company Overview</a></li>
-          <li><a href="#organizations-members">Organization Members</a></li>
-          <li>
-            <a href="#organizations-structures">Organizations Structures</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="about-navigation">
+        <div class="about-navigation-layout">
+          <nav class="about-navbar">
+            <ul>
+              <li><a href="#company-overview">Company Overview</a></li>
+              <li><a href="#organizations-members">Organization Members</a></li>
+              <li>
+                <a href="#organizations-structures">Organizations Structures</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-      <!-- About Page : Landing Page -->
-      <section class="about-landing">
-        <article class="layout">
-          <img src="../img/about-landing-image.jpg" alt="about-landing-image" />
-        </article>
+      <!-- About Page : Landing Page
+       -->
+      <section class="about">
+        <div class="company-overview">
+          <div class="company-overview-layout">
+            <div class="company-overview-content">
+              <h1>Company Overview</h1>
+              <p>
+                GoTo Group is the largest digital ecosystem in Indonesia, with a
+                mission to “empower progress” by offering technology
+                infrastructure and solutions that help everyone to access and
+                thrive in the digital economy. GoTos ecosystem comprises of
+                on-demand transport, e-commerce, food and grocery delivery,
+                logistics and fulfillment, and financial services through the
+                Gojek, Tokopedia and GoTo Financial platforms.
+              </p>
+              <a href="#read-more">Click to Read More</a>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section class="organizations">
+        <div class="container">
+          <h1>Board of Organizations</h1>
+        </div>
+        <hr />
+        <div class="container">
+          <div class="organizations-members">
+            <div>
+              <a href="#jeffry">
+                <img src="../img/jeffry.jpeg" alt="jeffry-image" />
+                <h3>Aunuun Jeffry Mahbuubi</h3>
+                <p>UI Design, Front-End Developer</p>
+              </a>
+            </div>
+
+            <div>
+              <a href="#benhard">
+                <img src="../img/rofiq.jpg" alt="benhard-image" />
+                <h3>Benhard Hustomo</h3>
+                <p>UI Design, Front-End Developer</p>
+              </a>
+            </div>
+
+            <div>
+              <a href="#rafiq">
+                <img src="../img/rofiq.jpg" alt="rrafiq-image" />
+                <h3>Rafiq Ahmad Mubarok</h3>
+                <p>UI Design, Front-End Developer</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+          <h4></h4>
+        </div>
+      </section>
+
+      <section class="structure">
+        <div class="container">
+          <div class="structure-content">
+            <span>Organization Structures</span>
+            <div class="arrow-down">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart">
+          <div class="container">
+            <div class="structure-content-chart">
+              <div>
+                <img
+                  src="../img/about-organization-structure.png"
+                  alt="structure-chart"
+                />
+              </div>
+              <button><span>Click to Zoom</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        Powered By
+        <img src="../img/navigation-home.png" alt="" />
+      </footer>
     </main>
   </body>
 </html>

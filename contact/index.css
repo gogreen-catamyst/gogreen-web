@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  gap: 50px;
+  display: flex;
+}
+
+input {
+  accent-color: auto;
+  display: block;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 1rem;
+}
+
+legend,
+select {
+  margin: 0 1rem;
+  padding: 0.125rem;
+  font-size: x-small;
+}
+
+fieldset.form {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.0625rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
+}
+
+input[type="radio"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  margin: 0;
+  padding: 0.5rem;
+  width: 150px;
+  background-color: inherit;
+  border: none;
+  width: auto;
+  color: white;
+}
+
+input[type="submit"] {
+  border: 0;
+}
+
+input[placeholder] {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+div.tncbox {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+  gap: 0.5rem;
+  color: #6d7588;
+  font-size: small;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.75rem 4rem;
+  background: none;
+  border-radius: 10rem;
+  border-color: rgba(0, 204, 51);
+}
+
+button > span {
+  color: white;
+}
+
+aside > img {
+  padding: 1rem 0;
+}
+
+.navbar {
+  background-color: #49a368;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form.radio {
+  margin: 1rem;
+  padding: 0.25rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
+}
+
+.form.radio.item {
+  display: flex;
+  align-items: center;
+  padding: 0.125rem 0.25rem;
+  gap: 0.5rem;
+  border: none;
+}
+
+.form.text.caption,
+.form.text.empty {
+  margin: 0;
+  padding: 0.75rem;
+  border: none;
+  opacity: 50%;
+  font-size: 75%;
+}
+
+.section.nonav {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  section.nonav {
+    flex-direction: column-reverse;
+  }
+  img {
+    width: fit-content;
+  }
+}

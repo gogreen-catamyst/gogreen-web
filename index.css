@@ -108,6 +108,7 @@ section.gogreen > h2 {
   flex-direction: row;
   justify-content: center;
   padding: 30px;
+  background-color: #121212;
 }
 
 .footer-image {

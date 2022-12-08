@@ -40,7 +40,6 @@ section.gogreen {
   height: 550px;
   display: flex;
   justify-content: left;
-  align-items: left;
   background-image: url("/img/header-image.jpg");
   background-size: cover;
   background-position: center;

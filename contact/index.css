@@ -78,18 +78,19 @@ button > span {
 } */
 
 .left.side {
-  width: 100%;
+  width: calc(60rem + 3vw);
 }
 
-.left.side img {
+.aside.img {
   padding: 1rem 0;
-  width: fit-content;
+  width: calc(1rem + 3vw);
 }
 
 .header {
   background-color: #49a368;
   display: flex;
   justify-content: center;
+  padding: 0.125rem 1rem;
 }
 
 .navbar {
@@ -183,11 +184,19 @@ button > span {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   section.nonav {
     flex-direction: column-reverse;
   }
   img {
     width: fit-content;
+  }
+  .aside.img {
+    width: 100px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
   }
 }

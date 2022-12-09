@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home | gogreen</title>
+    <meta
+      name="description"
+      content="We are the #1 technology champion in Indonesia and a leading consumer tech company globally. gogreen dedicated to empower progress in all of the societies in which we operate."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/favicon-gogreen/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="navbar">
+        <div id="navbar-1">
+          <a href="/">
+            <img
+              class="logo-icon"
+              src="/img/navigation-home.png"
+              width="150"
+              height="60"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <ul id="navbar-2" class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main nonav">
+      <section class="section nonav">
+        <aside class="left side">
+          <img
+            src="../img/gogreen-in-europe.jpg"
+            alt="Our transportation unit"
+            class="aside image"
+          />
+        </aside>
+        <div class="right side">
+          <form>
+            <h1>Terima kasih atas kepercayaan Anda pada gogreen</h1>
+            <p>Harap menghubungi kami pada email berikut:</p>
+            <div class="form radio">
+              <div class="form radio item">
+                <input
+                  type="radio"
+                  id="media-kerja-sama"
+                  name="contactus-type"
+                  value="media-kerja-sama"
+                />
+                <label for="media-kerja-sama">Media & Kerja sama</label>
+              </div>
+              <div class="form radio item">
+                <input
+                  type="radio"
+                  id="hubungan-investor"
+                  name="contactus-type"
+                  value="hubungan-investor"
+                />
+                <label for="hubungan-investor">Hubungan Investor</label>
+              </div>
+              <div class="form radio item">
+                <input
+                  type="radio"
+                  id="sekretaris-perusahaan"
+                  name="contactus-type"
+                  value="sekretaris-perusahaan"
+                />
+                <label for="sekretaris-perusahaan">Sekretaris Perusahan</label>
+              </div>
+              <div class="form radio item">
+                <input
+                  type="radio"
+                  id="sustainability"
+                  name="contactus-type"
+                  value="sustainability"
+                />
+                <label for="sustainability">Sustainability</label>
+              </div>
+            </div>
+
+            <div class="form text">
+              <fieldset class="fieldset form text item">
+                <legend>Nama</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="name"
+                  placeholder="Nama"
+                />
+                <div class="form text caption"></div>
+                <label for="name" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form text item">
+                <legend>Email</legend>
+                <input
+                  type="email"
+                  name="field-text"
+                  id="email"
+                  placeholder="Email"
+                />
+                <div class="form text caption"></div>
+                <label for="email" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form text item">
+                <legend>Perusahaan</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="company"
+                  placeholder="Perusahaan"
+                />
+                <div class="form text caption"></div>
+                <label for="company" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form text item">
+                <legend>Nomor Telepon</legend>
+                <input
+                  type="tel"
+                  name="field-text"
+                  id="phone-number"
+                  placeholder="Nomor Telepon"
+                />
+                <div class="form text caption"></div>
+                <label for="phone-number" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form text item">
+                <legend>Subjek</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="subject"
+                  placeholder="Subjek"
+                />
+                <div class="form text caption"></div>
+                <label for="subject" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form dropdown">
+                <legend>Tujuan</legend>
+                <select name="dropdown-purpose" id="purpose" class="purpose">
+                  <option value="">Pilih Tujuan</option>
+                  <option value="pertanyaan-umum">Pertanyaan umum</option>
+                  <option value="undangan-bicara">Undangan bicara</option>
+                  <option value="sponsor">Sponsor</option>
+                  <option value="pertanyaan-media">Pertanyaan media</option>
+                </select>
+                <label for="purpose" class="form text caption"></label>
+              </fieldset>
+
+              <fieldset class="fieldset form text item">
+                <legend>Komentar</legend>
+                <input
+                  type="text"
+                  name="field-text"
+                  id="comment"
+                  placeholder="Komentar"
+                />
+                <div class="form text caption"></div>
+                <label for="comment" class="form text caption"></label>
+              </fieldset>
+            </div>
+            <div class="tncbox">
+              <input id="checkbox-tnc" type="checkbox" />
+              <label for="checkbox-tnc"
+                >Saya bersedia untuk mengungkapkan informasi identifikasi
+                pribadi saya kepada PT GoGreen Indonesia Tbk dan afiliasinya
+                untuk mengidentifikasi pesan yang saya sampaikan dan media untuk
+                menindaklanjuti pesan saya.</label
+              >
+            </div>
+            <button class="submit-button">
+              <span>Kirim</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copyright">powered by</p>
+      <span
+        ><img class="footer-image" src="/img/navigation-home.png" alt="gogreen"
+      /></span>
+    </footer>
+  </body>
+</html>

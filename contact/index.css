@@ -112,6 +112,12 @@ aside > img {
     url("https://picsum.photos/id/111/400/200");
 }
 
+.header {
+  background-color: #49a368;
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

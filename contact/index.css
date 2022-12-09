@@ -113,10 +113,11 @@ aside > img {
 }
 
 .navbar {
-  background-color: #49a368;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
 }
 
 .form.radio {

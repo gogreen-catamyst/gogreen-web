@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>gogreen</title>
+    <title>Home | gogreen</title>
     <meta
       name="description"
       content="We are the #1 technology champion in Indonesia and a leading consumer tech company globally. gogreen dedicated to empower progress in all of the societies in which we operate."
@@ -18,23 +18,30 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/favicon-gogreen/favicon.ico"
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="header">
       <nav class="navbar">
-        <div>
-          <img
-            class="logo-icon"
-            src="/img/navigation-home.png"
-            width="150"
-            height="60"
-            alt="logo"
-          />
+        <div id="navbar-1">
+          <a href="/">
+            <img
+              class="logo-icon"
+              src="/img/navigation-home.png"
+              width="150"
+              height="60"
+              alt="logo"
+            />
+          </a>
         </div>
-        <ul class="menu">
+        <ul id="navbar-2" class="menu">
           <li><a href="/">Home</a></li>
-          <li><a href="/about/index.html">About</a></li>
-          <li>Contact</li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +49,11 @@
     <main class="main nonav">
       <section class="section nonav">
         <aside class="left side">
-          <img alt="Our transportation unit" />
+          <img
+            src="../img/gogreen-in-europe.jpg"
+            alt="Our transportation unit"
+            class="aside image"
+          />
         </aside>
         <div class="right side">
           <form>
@@ -88,7 +99,7 @@
             </div>
 
             <div class="form text">
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Nama</legend>
                 <input
                   type="text"
@@ -100,7 +111,7 @@
                 <label for="name" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Email</legend>
                 <input
                   type="email"
@@ -112,7 +123,7 @@
                 <label for="email" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Perusahaan</legend>
                 <input
                   type="text"
@@ -124,7 +135,7 @@
                 <label for="company" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Nomor Telepon</legend>
                 <input
                   type="tel"
@@ -136,7 +147,7 @@
                 <label for="phone-number" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Subjek</legend>
                 <input
                   type="text"
@@ -148,9 +159,9 @@
                 <label for="subject" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form dropdown">
+              <fieldset class="fieldset form dropdown">
                 <legend>Tujuan</legend>
-                <select name="dropdown-purpose" id="purpose">
+                <select name="dropdown-purpose" id="purpose" class="purpose">
                   <option value="">Pilih Tujuan</option>
                   <option value="pertanyaan-umum">Pertanyaan umum</option>
                   <option value="undangan-bicara">Undangan bicara</option>
@@ -160,7 +171,7 @@
                 <label for="purpose" class="form text caption"></label>
               </fieldset>
 
-              <fieldset class="form text item">
+              <fieldset class="fieldset form text item">
                 <legend>Komentar</legend>
                 <input
                   type="text"

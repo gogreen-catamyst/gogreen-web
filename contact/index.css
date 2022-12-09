@@ -12,24 +12,19 @@ a {
 }
 
 ul {
+  display: flex;
   list-style: none;
   gap: 50px;
-  display: flex;
-}
-
-input {
-  accent-color: auto;
-  display: block;
 }
 
 h1 {
-  margin: 0;
-  padding: 1rem;
+  margin: 1rem;
+  /* padding: 1rem; */
 }
 
 p {
-  margin: 0;
-  padding: 1rem;
+  margin: 1rem;
+  /* padding: 1rem; */
 }
 
 legend,
@@ -37,17 +32,6 @@ select {
   margin: 0 1rem;
   padding: 0.125rem;
   font-size: x-small;
-}
-
-fieldset.form {
-  display: flex;
-  align-items: center;
-  margin: 1rem;
-  padding: 0.0625rem;
-  border: solid;
-  border-width: 0.0625rem;
-  border-color: #bfc9d9;
-  border-radius: 0.5rem;
 }
 
 input[type="radio"] {
@@ -64,7 +48,7 @@ input[type="tel"] {
   width: 150px;
   background-color: inherit;
   border: none;
-  width: auto;
+  width: 100%;
   color: white;
 }
 
@@ -75,16 +59,6 @@ input[type="submit"] {
 input[placeholder] {
   margin: 0;
   padding: 0.5rem 1rem;
-}
-
-div.tncbox {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 1rem;
-  gap: 0.5rem;
-  color: #6d7588;
-  font-size: small;
 }
 
 button {
@@ -99,24 +73,53 @@ button > span {
   color: white;
 }
 
-aside > img {
+html {
+  display: flex;
+}
+
+.left.side {
+  width: 100%;
+}
+
+.left.side img {
   padding: 1rem 0;
-  min-height: 400px;
-  min-width: 600px;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(0, 0, 255, 0.5),
-      rgba(255, 255, 0, 0.5)
-    ),
-    url("https://picsum.photos/id/111/400/200");
+  width: fit-content;
+}
+
+.header {
+  background-color: #49a368;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
-  background-color: #49a368;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.main.nonav {
+  display: flex;
+  justify-content: center;
+}
+
+.section.nonav {
+  display: flex;
+  justify-content: center;
+  max-width: 1024px;
+}
+
+.fieldset.form {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 1rem;
+  padding: 0.0625rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
 }
 
 .form.radio {
@@ -136,18 +139,28 @@ aside > img {
   border: none;
 }
 
-.form.text.caption,
-.form.text.empty {
-  margin: 0;
+.form.text.caption {
+  display: none;
+  /* margin: 0;
   padding: 0.75rem;
   border: none;
   opacity: 50%;
-  font-size: 75%;
+  font-size: 75%; idk if this is needed instead of placeholder */
 }
 
-.section.nonav {
+.purpose {
+  margin: 0.5rem 1rem;
+  width: 100%;
+}
+
+.tncbox {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  /* padding: 1rem; */
+  gap: 0.5rem;
+  color: #6d7588;
+  font-size: small;
 }
 
 .footer {

@@ -147,6 +147,10 @@ aside > img {
   font-size: 75%;
 }
 
+.purpose {
+  margin: 0.5rem 1rem;
+}
+
 .section.nonav {
   display: flex;
   justify-content: center;

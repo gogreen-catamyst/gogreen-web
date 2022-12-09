@@ -63,7 +63,7 @@ section.gogreen > h2 {
 .founder-latter {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-top: 6rem;
   align-items: left;
 }
 
@@ -80,7 +80,7 @@ section.gogreen > h2 {
 .description-2 {
   margin-bottom: 10rem;
   margin: 0;
-  margin-top: 4rem;
+  margin-top: 5rem;
   padding: 0;
   display: flex;
 }
@@ -99,7 +99,7 @@ section.gogreen > h2 {
 
 .home-background {
   width: 500px;
-  height: 500px;
+  height: 525px;
   justify-items: flex-end;
   margin-top: 10rem;
 }

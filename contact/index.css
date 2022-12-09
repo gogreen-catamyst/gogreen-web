@@ -73,9 +73,12 @@ button > span {
   color: white;
 }
 
+html {
+  display: flex;
+}
+
 .left.side {
-  width: 2000px;
-  border: solid snow;
+  width: 100%;
 }
 
 .left.side img {

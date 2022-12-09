@@ -17,11 +17,6 @@ ul {
   display: flex;
 }
 
-input {
-  accent-color: auto;
-  display: block;
-}
-
 h1 {
   margin: 0;
   padding: 1rem;

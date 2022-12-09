@@ -74,7 +74,7 @@ button > span {
 }
 
 html {
-  display: flex;
+  /* display: flex; */
 }
 
 .left.side {

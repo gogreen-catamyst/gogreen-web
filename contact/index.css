@@ -59,7 +59,7 @@ input[type="tel"] {
   width: 150px;
   background-color: inherit;
   border: none;
-  width: auto;
+  width: 100%;
   color: white;
 }
 
@@ -138,17 +138,18 @@ aside > img {
   border: none;
 }
 
-.form.text.caption,
-.form.text.empty {
-  margin: 0;
+.form.text.caption {
+  display: none;
+  /* margin: 0;
   padding: 0.75rem;
   border: none;
   opacity: 50%;
-  font-size: 75%;
+  font-size: 75%; idk if this is needed instead of placeholder */
 }
 
 .purpose {
   margin: 0.5rem 1rem;
+  width: 100%;
 }
 
 .section.nonav {

@@ -7,6 +7,11 @@
   --container-padding: 28px;
 }
 
+* {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
 body,
 h1,
 p {
@@ -81,29 +86,32 @@ ul {
     url(img/about-landing-image.png);
   display: flex;
   justify-content: center;
-}
-
-.company-overview .content-wrapper {
-  display: flex;
-  flex: 1 1 auto;
-  max-width: 58vw;
   align-items: center;
+  color: #fff;
 }
 
 .company-overview .content {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  gap: 2rem;
-  max-width: calc(58vw / 2);
+  flex-grow: 1;
+  padding: 0 var(--container-padding);
+  max-width: 58vw;
+}
+
+.company-overview .content .content-wrapper {
+  max-width: 600px;
+}
+
+.company-overview .content h1,
+p {
+  margin-bottom: 32px;
+  line-height: 32px;
 }
 
 .company-overview .content h1 {
-  font-size: 3rem;
+  font-size: clamp(2.8rem, 0.3rem + 2.7vw, 3rem);
 }
 
 .company-overview .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .company-overview .content .btn {
@@ -125,6 +133,12 @@ ul {
 .company-overview .content .btn a:hover {
   background-position: left;
 }
+
+/* @media (min-width: 1200px) {
+  .company-overview .content {
+  }
+} */
+
 /* company-overview styling-end */
 
 /* company-members styling-start */

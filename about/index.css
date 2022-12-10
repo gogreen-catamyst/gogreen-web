@@ -2,7 +2,7 @@
   --screen-width-sm: 540px;
   --screen-width-md: 720px;
   --screen-width-lg: 960px;
-  --screen-width-xl: 1140px;
+  --screen-width-xl: 1113px;
   --screen-width-2xl: 1320px;
   --container-padding: 28px;
 }
@@ -74,8 +74,8 @@ ul {
 /* company-overview styling-start */
 .company-overview {
   background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 80%;
+  background-position-x: 40%;
+  background-position-y: 90%;
   background-repeat: no-repeat;
   height: 90vh;
   background-image: linear-gradient(
@@ -92,12 +92,11 @@ ul {
 
 .company-overview .content {
   flex-grow: 1;
-  padding: 0 var(--container-padding);
   max-width: 58vw;
 }
 
 .company-overview .content .content-wrapper {
-  max-width: 600px;
+  max-width: 572px;
 }
 
 .company-overview .content h1,
@@ -256,4 +255,11 @@ p {
   text-align: center;
   margin: 0;
   align-items: center;
+}
+
+/* Media queries */
+
+@media (min-width: 1200px) {
+  .company-overview .content {
+  }
 }

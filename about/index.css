@@ -32,7 +32,7 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 58vw;
+  max-width: 110px;
 }
 
 a {
@@ -62,7 +62,7 @@ ul {
   justify-content: space-between;
   flex-grow: 1;
   flex-shrink: 1;
-  max-width: 58vw;
+  max-width: 110px;
 }
 
 .about-page-navbar-content ul {
@@ -92,7 +92,7 @@ ul {
 
 .company-overview .content {
   flex-grow: 1;
-  max-width: 58vw;
+  max-width: 110px;
 }
 
 .company-overview .content .content-wrapper {
@@ -155,7 +155,7 @@ p {
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
-  max-width: 58vw;
+  max-width: 110px;
 }
 
 .company-members .content hr {
@@ -171,7 +171,7 @@ p {
   grid-template-columns: repeat(3, minmax(280px, 1fr));
   margin-left: auto;
   margin-right: auto;
-  max-width: 58vw;
+  max-width: 110px;
   padding-bottom: 80px;
   border-width: 0px 1px;
   border-color: hsl(0, 0%, 21.2%);
@@ -189,7 +189,7 @@ p {
 .company-members-end h2 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 58vw;
+  max-width: 110px;
   padding-bottom: 80px;
   border-width: 0px 1px;
   border-color: hsl(0, 0%, 21.2%);
@@ -212,7 +212,7 @@ p {
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
-  max-width: 58vw;
+  max-width: 110px;
 }
 
 .company-structures .content div {

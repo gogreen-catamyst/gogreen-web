@@ -77,6 +77,11 @@ button > span {
   /* display: flex;
 } */
 
+.nonav {
+  display: flex;
+  flex-direction: column;
+}
+
 .left.side {
   width: calc(60rem + 3vw);
 }

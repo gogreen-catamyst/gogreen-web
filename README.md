@@ -4,7 +4,7 @@ Access it live at <https://gogreen.jeffrymahbuubi.com>
 
 ## Website Inspiration
 
-- GoTo: <https://gotocompany.com>
+- GoTo Company: <https://gotocompany.com>
 
 ## Design
 

@@ -4,11 +4,11 @@ Access it live at <https://gogreen.jeffrymahbuubi.com>
 
 ## Website Inspiration
 
-- GoTo Company: <https://www.gotocompany.com>
+- GoTo Company: <https://gotocompany.com>
 
 ## Design
 
-- Figma Design: <https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/gogreen?t=DH73MuPngbNEOrzZ-0>
+- Figma Design: <https://figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/gogreen?t=DH73MuPngbNEOrzZ-0>
 
 ## Team Members
 

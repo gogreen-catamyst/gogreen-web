@@ -77,7 +77,11 @@ button > span {
   /* display: flex;
 } */
 
-.nonav {
+.body {
+  justify-content: center;
+}
+
+.body.nonav {
   display: flex;
   flex-direction: column;
 }
@@ -205,5 +209,13 @@ button > span {
     display: flex;
     list-style: none;
     gap: 10px;
+  }
+  h1,
+  p {
+    font-size: medium;
+  }
+  fieldset,
+  legend {
+    font-size: x-small;
   }
 }

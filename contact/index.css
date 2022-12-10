@@ -19,12 +19,10 @@ ul {
 
 h1 {
   margin: 1rem;
-  /* padding: 1rem; */
 }
 
 p {
   margin: 1rem;
-  /* padding: 1rem; */
 }
 
 legend,
@@ -72,10 +70,6 @@ button {
 button > span {
   color: white;
 }
-
-/* html {
-  /* display: flex;
-} */
 
 .left.side {
   width: 100%;
@@ -141,11 +135,6 @@ button > span {
 
 .form.text.caption {
   display: none;
-  /* margin: 0;
-  padding: 0.75rem;
-  border: none;
-  opacity: 50%;
-  font-size: 75%; idk if this is needed instead of placeholder */
 }
 
 .purpose {
@@ -157,7 +146,6 @@ button > span {
   display: flex;
   align-items: center;
   margin: 1rem;
-  /* padding: 1rem; */
   gap: 0.5rem;
   color: #6d7588;
   font-size: small;

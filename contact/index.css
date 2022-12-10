@@ -73,6 +73,10 @@ button > span {
   color: white;
 }
 
+.input.text {
+  display: flex;
+}
+
 .left.side {
   width: max-content;
 }
@@ -105,7 +109,6 @@ button > span {
   display: flex;
   justify-content: center;
   max-width: 1024px;
-  width: 100%;
 }
 
 .fieldset.form {

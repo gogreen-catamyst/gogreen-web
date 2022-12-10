@@ -1,13 +1,12 @@
-# GoGreen Project
+# GoGreen Company Profile
 
-## Links
+Access it live at <https://gogreen.jeffrymahbuubi.com>
 
-### Website-Inspiration
+## Website Inspiration
 
 - GoTo: <https://www.gotocompany.com>
-- Deployment: <https://gogreen.jeffrymahbuubi.com>
 
-### Design
+## Design
 
 - Figma Design: <https://www.figma.com/file/gpXJmC2XF5WmodRkF6NZ8v/gogreen?t=DH73MuPngbNEOrzZ-0>
 

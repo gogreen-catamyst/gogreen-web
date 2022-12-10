@@ -74,12 +74,12 @@ button > span {
 }
 
 .left.side {
-  width: 100%;
+  width: max-content;
 }
 
 .left.side img {
   padding: 1rem 0;
-  width: fit-content;
+  width: 100%;
 }
 
 .header {
@@ -105,10 +105,10 @@ button > span {
   display: flex;
   justify-content: center;
   max-width: 1024px;
+  width: 100%;
 }
 
 .fieldset.form {
-  display: flex;
   align-items: center;
   margin: 1rem;
   padding: 0.0625rem;

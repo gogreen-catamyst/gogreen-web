@@ -77,6 +77,14 @@ button > span {
   display: flex;
 }
 
+.dropdown {
+  display: flex;
+}
+
+.textarea-container {
+  display: flex;
+}
+
 .left.side {
   width: max-content;
 }
@@ -149,7 +157,8 @@ button > span {
 
 .textarea.comment {
   margin: 0.5rem 1rem;
-  width: 100%;
+  resize: none;
+  font-display: black;
 }
 
 .tncbox {

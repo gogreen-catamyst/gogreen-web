@@ -55,7 +55,7 @@ input[type="submit"] {
   border: 0;
 }
 
-input,
+input[placeholder],
 textarea[placeholder] {
   margin: 0;
   padding: 0.5rem 1rem;
@@ -144,6 +144,11 @@ button > span {
   width: 100%;
 }
 
+.textarea.comment {
+  margin: 0.5rem 1rem;
+  width: 100%;
+}
+
 .tncbox {
   display: flex;
   align-items: center;
@@ -176,9 +181,6 @@ button > span {
 @media (width: 1023px) {
   section.nonav {
     flex-direction: column-reverse;
-  }
-  img {
-    width: fit-content;
   }
   .aside.img {
     width: 100px;

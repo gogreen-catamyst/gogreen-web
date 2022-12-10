@@ -19,10 +19,12 @@ ul {
 
 h1 {
   margin: 1rem;
+  /* padding: 1rem; */
 }
 
 p {
   margin: 1rem;
+  /* padding: 1rem; */
 }
 
 legend,
@@ -77,9 +79,6 @@ button > span {
 
 .body {
   justify-content: center;
-  
-.left.side {
-  width: 100%;
 }
 
 .body.nonav {
@@ -154,6 +153,11 @@ button > span {
 
 .form.text.caption {
   display: none;
+  /* margin: 0;
+  padding: 0.75rem;
+  border: none;
+  opacity: 50%;
+  font-size: 75%; idk if this is needed instead of placeholder */
 }
 
 .purpose {
@@ -165,6 +169,7 @@ button > span {
   display: flex;
   align-items: center;
   margin: 1rem;
+  /* padding: 1rem; */
   gap: 0.5rem;
   color: #6d7588;
   font-size: small;
@@ -212,5 +217,186 @@ button > span {
   fieldset,
   legend {
     font-size: x-small;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+legend,
+select {
+  margin: 0 1rem;
+  padding: 0.125rem;
+  font-size: x-small;
+}
+
+input[type="radio"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  margin: 0;
+  padding: 0.5rem;
+  width: 150px;
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  color: white;
+}
+
+input[type="submit"] {
+  border: 0;
+}
+
+input[placeholder] {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.75rem 4rem;
+  background: none;
+  border-radius: 10rem;
+  border-color: rgba(0, 204, 51);
+}
+
+button > span {
+  color: white;
+}
+
+.left.side {
+  width: 100%;
+}
+
+.left.side img {
+  padding: 1rem 0;
+  width: fit-content;
+}
+
+.header {
+  background-color: #49a368;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.main.nonav {
+  display: flex;
+  justify-content: center;
+}
+
+.section.nonav {
+  display: flex;
+  justify-content: center;
+  max-width: 1024px;
+}
+
+.fieldset.form {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.0625rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
+}
+
+.form.radio {
+  margin: 1rem;
+  padding: 0.25rem;
+  border: solid;
+  border-width: 0.0625rem;
+  border-color: #bfc9d9;
+  border-radius: 0.5rem;
+}
+
+.form.radio.item {
+  display: flex;
+  align-items: center;
+  padding: 0.125rem 0.25rem;
+  gap: 0.5rem;
+  border: none;
+}
+
+.form.text.caption {
+  display: none;
+}
+
+.purpose {
+  margin: 0.5rem 1rem;
+  width: 100%;
+}
+
+.tncbox {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 0.5rem;
+  color: #6d7588;
+  font-size: small;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-image {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  section.nonav {
+    flex-direction: column-reverse;
+  }
+  img {
+    width: fit-content;
   }
 }

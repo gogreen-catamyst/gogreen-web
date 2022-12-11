@@ -78,11 +78,33 @@ section.gogreen > h2 {
 }
 
 .description-2 {
-  margin-bottom: 10rem;
   margin: 0;
   margin-top: 5rem;
   padding: 0;
   display: flex;
+  flex-direction: column;
+}
+
+.milestones-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 7rem;
+  gap: 2rem;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.reviewers {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
 }
 
 .nature {

@@ -73,15 +73,11 @@ ul {
 
 /* company-overview styling-start */
 .company-overview {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
   height: 90vh;
-
-  background: linear-gradient(90deg, #222121 0%, rgba(0, 0, 0, 0) 100%),
-    url(../img/about-landing-image-2.jpg);
-  background-size: 100%;
-
+  background-image: url(../img/about-landing-image-2.jpg),
+    linear-gradient(90deg, #222121 0%, rgba(0, 0, 0, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

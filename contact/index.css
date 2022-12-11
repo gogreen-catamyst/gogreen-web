@@ -191,7 +191,7 @@ button > span {
   align-items: center;
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   ul {
     display: flex;
     list-style: none;
@@ -212,4 +212,31 @@ button > span {
   .aside.img {
     width: 425px;
   }
-}
+} */
+
+@media (min-width: 426px) {
+    ul {
+      gap: 40px;
+    }
+    .navbar {
+      font-size: 1.1rem;
+    }
+    .logo-icon {
+      width: 120px;
+    }
+    .menu-contact {
+      display: list-item;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    ul {
+      gap: 50px;
+    }
+    .navbar {
+      font-size: 1.2rem;
+    }
+    .logo-icon {
+      width: 150px;
+    }
+  }

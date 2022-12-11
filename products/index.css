@@ -47,29 +47,47 @@ ul {
 }
 /* header-style end */
 
-.products-content {
+.products {
+  width: 100%;
+  height: 100vh;
   display: flex;
-}
-
-.products-item {
-  display: flex;
-  position: relative;
+  flex-flow: row nowrap;
   color: #fff;
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 
+.products-item-1 {
+  flex: 1 1 50%;
+  background-image: url(../img/furniture-delivery.jpg);
+  background-position: top 0 left 100%;
+  background-size: cover;
+}
+
+.products-item-2 {
+  flex: 1 1 50%;
+  background-image: url(../img/custom-made.jpg);
+  background-position: top 0 left 100%;
+  background-size: cover;
+}
+
+.products-item-3 {
+  flex: 1 1 50%;
+  background-image: url(../img/sustainable-material.jpg);
+  background-position: top 0 left 100%;
+  background-size: cover;
+}
+
+.products .description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50vh;
+  padding: 0 100px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer style-start */
 .footer {
   display: flex;
   flex-direction: row;
@@ -91,3 +109,4 @@ ul {
   margin: 0;
   align-items: center;
 }
+/* footer style-end */

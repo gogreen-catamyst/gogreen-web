@@ -250,32 +250,11 @@ button > span {
   @media (min-width: 769px) {
     ul {
       gap: 50px;
-      display: flex;
-      list-style: none;
     }
     .navbar {
       font-size: 1.2rem;
     }
     .logo-icon {
       width: 150px;
-    }
-    .menu-contact {
-      display: list-item;
-    }
-    h1,
-    p {
-      font-size: medium;
-    }
-    fieldset,
-    legend {
-      font-size: x-small;
-    }
-    .section.nonav {
-      display: flex;
-      flex-direction: column-reverse;
-      width: 100%;
-    }
-    .aside.img {
-      width: 425px;
     }
   }

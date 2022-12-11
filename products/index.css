@@ -46,3 +46,35 @@ ul {
   display: flex;
 }
 /* header-style end */
+
+.products-content {
+  display: flex;
+}
+
+.products-item {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.proudcts-item img {
+  display: block;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+}

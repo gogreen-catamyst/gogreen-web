@@ -191,7 +191,7 @@ button > span {
   align-items: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 667px) {
   ul {
     display: flex;
     list-style: none;
@@ -210,6 +210,6 @@ button > span {
     width: 100%;
   }
   .aside.img {
-    width: 425px;
+    max-width: 667px;
   }
 }

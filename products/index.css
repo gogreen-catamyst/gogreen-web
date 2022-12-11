@@ -1,0 +1,48 @@
+:root {
+  --screen-width-sm: 540px;
+  --screen-width-md: 720px;
+  --screen-width-lg: 960px;
+  --screen-width-xl: 1113px;
+  --screen-width-2xl: 1320px;
+  --container-padding: 28px;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* header-style start */
+.header {
+  background-color: #49a368;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  gap: 50px;
+  display: flex;
+}
+/* header-style end */

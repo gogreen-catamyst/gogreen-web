@@ -73,17 +73,11 @@ ul {
 
 /* company-overview styling-start */
 .company-overview {
-  background-size: cover;
-  background-position-x: 40%;
-  background-position-y: 90%;
-  background-repeat: no-repeat;
   height: 90vh;
-  background-image: linear-gradient(
-      90deg,
-      rgba(2, 23, 9, 0.96) 0%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    url(img/about-landing-image.png);
+  background-image: url(../img/about-landing-image-2.jpg),
+    linear-gradient(90deg, #222121 0%, rgba(0, 0, 0, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,24 +214,9 @@ p {
   background-color: hsl(0, 0%, 24.3%);
   justify-content: center;
   align-items: center;
-  padding-bottom: 80px;
   flex-direction: column;
-}
-
-.content button {
-  width: 160px;
-  text-align: center;
-  border-radius: 35px;
-  padding: 0.9rem 1.3rem;
-  border: 1px solid hsl(135, 100%, 40%);
-  background: linear-gradient(to left, transparent 50%, hsl(135, 100%, 40%) 50%)
-    right;
-  background-size: 200%;
-  transition: 0.2s ease-out;
-}
-
-.content button:hover {
-  background-position: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .footer {

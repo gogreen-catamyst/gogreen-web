@@ -214,7 +214,7 @@ button > span {
   }
 } */
 
-@media (min-width: 426px) {
+@media (max-width: 426px) {
     ul {
       gap: 40px;
       display: flex;

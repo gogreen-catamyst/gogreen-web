@@ -209,7 +209,7 @@ button > span {
     flex-direction: column-reverse;
     width: 100%;
   }
-  .aside.img {
-    max-width: 667px;
+  .aside.left.side {
+    width: 100%;
   }
 }

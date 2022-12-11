@@ -237,8 +237,3 @@ p {
 }
 
 /* Media queries */
-
-@media (min-width: 1200px) {
-  .company-overview .content {
-  }
-}
